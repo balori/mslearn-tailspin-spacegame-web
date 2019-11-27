@@ -56,7 +56,7 @@ steps:
     zipAfterPublish: true
 
 - task: DotNetCoreCLI@2
-    displayName: 'Build the project - Debug'
+  displayName: 'Build the project - Debug'
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration Debug'
